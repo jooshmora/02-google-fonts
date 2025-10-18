@@ -2,11 +2,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
   font-size: 18px; /* Increased font size for better readability */
+}
+
+/* Headings use Rubik */
+h1, h2, .hero h1, .how-it-works h2, .features h2 {
+  font-family: 'Rubik', sans-serif;
 }
 
 /* Hero Section */
